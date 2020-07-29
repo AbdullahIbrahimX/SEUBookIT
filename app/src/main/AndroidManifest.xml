@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="seu.seniorproject.com.seubookit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Utilities.SEUNotification"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Utilities.Delete"></activity>
+        <activity android:name=".Doctor.ManageAvTime" />
+        <activity android:name=".Student.DoctorView" />
+        <activity android:name=".Shared.MeetingView" />
+        <activity android:name=".Shared.RequestView" />
+        <activity
+            android:name=".Student.FindProfessor"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".Shared.User_Information" />
+        <activity
+            android:name=".Shared.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Student.RequistMeeting" />
+        <activity android:name=".Shared.Register" />
+        <activity android:name=".Shared.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

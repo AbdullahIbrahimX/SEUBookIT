@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SEUBookIT</string>
+    <string name="seubookit">SEUBookIT</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_req">hello</string>
+    <string-array name="user_type">
+        <item>Type</item>
+        <item>Student</item>
+        <item>Doctor</item>
+    </string-array>
+    <string-array name="user_department">
+        <item>Department</item>
+        <item>IT</item>
+        <item>Commerce</item>
+        <item>Law</item>
+    </string-array>
+    <string-array name="user_branch">
+        <item>Branch</item>
+        <item>Dammam</item>
+        <item>Jeddah</item>
+        <item>Riyadh</item>
+    </string-array>
+
+
+</resources>

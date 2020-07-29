@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".Utilities.Delete">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_height="wrap_content"
+            android:text="Name :" />
+
+        <TextView
+            android:id="@+id/deleteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_height="wrap_content"
+            android:text="Date :" />
+
+        <TextView
+            android:id="@+id/deleteDate"
+            android:layout_width="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time :" />
+
+        <TextView
+            android:id="@+id/deleteTime"
+            android:layout_width="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_height="wrap_content"
+            android:text="Purpose :" />
+
+        <TextView
+            android:id="@+id/deletePurpose"
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/deleteRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Remove" />
+
+        <Button
+            android:id="@+id/deleteBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="back" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
